@@ -1,0 +1,23 @@
+{
+  "name": "Springest UserSupport addon",
+  "description": "Helps creating tracking links",
+  "manifest_version": 2,
+  "permissions": [ "activeTab", "tabs" ],
+  "background": {
+    "persistent": false,
+    "scripts": ["bgscript.js"]
+  },
+  "icons": {
+    "128": "/data/icon128.png",
+    "48": "/data/icon48.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "/data/icon19.png",
+      "38": "/data/icon38.png"
+    },
+    "default_title": "Springest UserSupport addon"
+  },
+  "update_url": "https://raw.github.com/mathijsblokland/user-support-addon/master/extension/chrome/update_manifest.xml",
+  "version": "0.0.1"
+}
